@@ -1,4 +1,4 @@
-import  {Student}  from '../types/student';
+import  {type Student}  from '../types/student';
 
 export const mockStudents: Student[] = [
   { id: 1, name: 'Alice Johnson', email: 'alice.j@university.edu', level: 5 },

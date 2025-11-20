@@ -1,6 +1,6 @@
 import React from 'react';
 import { User, Mail, GraduationCap } from 'lucide-react';
-import type { Student } from '../types/student';
+import type { Student } from '../types/student.ts';
 import './StudentTable.css';
 
 interface StudentTableProps {
