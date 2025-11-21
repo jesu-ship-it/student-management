@@ -128,7 +128,7 @@ interface Student {
   id: number;
   name: string;
   email: string;
-  level: 4 | 5 | 6 | 7;
+  level: number;
 }
 ```
 
