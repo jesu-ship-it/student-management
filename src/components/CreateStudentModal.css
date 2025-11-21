@@ -1,7 +1,7 @@
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--bg-modal-overlay);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,9 +10,9 @@
 }
 
 .modal {
-  background-color: white;
+  background-color: var(--bg-secondary);
   border-radius: 0.5rem;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-lg);
   max-width: 28rem;
   width: 100%;
 }
@@ -22,25 +22,25 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .modal-header h2 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #111827;
+  color: var(--text-primary);
 }
 
 .close-button {
   background: none;
   border: none;
-  color: #9ca3af;
+  color: var(--text-tertiary);
   padding: 0;
   transition: color 0.2s;
 }
 
 .close-button:hover {
-  color: #4b5563;
+  color: var(--text-secondary);
 }
 
 .close-button svg {
@@ -60,38 +60,44 @@
   display: block;
   font-size: 0.875rem;
   font-weight: 500;
-  color: #374151;
+  color: var(--text-primary);
   margin-bottom: 0.25rem;
 }
 
 .required {
-  color: #ef4444;
+  color: var(--error-color);
 }
 
 .form-group input,
 .form-group select {
   width: 100%;
   padding: 0.5rem 0.75rem;
-  border: 1px solid #d1d5db;
+  border: 1px solid var(--border-color-light);
   border-radius: 0.5rem;
   outline: none;
   font-size: 0.875rem;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.form-group input::placeholder {
+  color: var(--text-tertiary);
 }
 
 .form-group input:focus,
 .form-group select:focus {
-  border-color: #3b82f6;
+  border-color: var(--accent-primary);
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .input-error {
-  border-color: #ef4444 !important;
+  border-color: var(--error-color) !important;
 }
 
 .error-text {
   margin-top: 0.25rem;
   font-size: 0.875rem;
-  color: #ef4444;
+  color: var(--error-color);
 }
 
 .modal-actions {
@@ -109,21 +115,21 @@
 }
 
 .btn-cancel {
-  border: 1px solid #d1d5db;
-  background-color: white;
-  color: #374151;
+  border: 1px solid var(--border-color-light);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 .btn-cancel:hover {
-  background-color: #f9fafb;
+  background-color: var(--bg-hover);
 }
 
 .btn-submit {
   border: none;
-  background-color: #3b82f6;
+  background-color: var(--accent-primary);
   color: white;
 }
 
 .btn-submit:hover {
-  background-color: #2563eb;
+  background-color: var(--accent-hover);
 }
