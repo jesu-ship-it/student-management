@@ -58,7 +58,7 @@ A modern, responsive Student Management UI built with **React**, **TypeScript**,
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/student-management.git
+git clone https://github.com/jesu-ship-it/student-management.git
 cd student-management
 ```
 
