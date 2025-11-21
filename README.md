@@ -2,7 +2,9 @@
 
 A modern, responsive Student Management UI built with **React**, **TypeScript**, and **Vite**. Features a beautiful dark/light mode toggle and intuitive interface for managing student records.
 
-![Student Management System](https://img.shields.io/badge/React-18.x-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue) ![Vite](https://img.shields.io/badge/Vite-5.x-purple) ![Dark Mode](https://img.shields.io/badge/Dark%20Mode-✓-green)
+## 🎥 Project Demo Video
+
+[![Watch the video](thumbnail.png)](https://youtu.be/KtDHrdusSk4)
 
 ## ✨ Features
 
